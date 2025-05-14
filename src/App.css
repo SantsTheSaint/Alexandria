@@ -1,0 +1,31 @@
+/* global.css */
+
+/* Reset básico de margens e fontes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Corpo da página */
+body {
+  background-color: #2D2D2D;
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 60px; /* Espaço para o footer */
+}
+
+/* Container principal */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo para os títulos principais */
+h1, h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}

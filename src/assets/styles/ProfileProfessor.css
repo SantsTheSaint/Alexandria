@@ -1,0 +1,19 @@
+.profile-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  .profile-info {
+    margin-top: 10px;
+  }
+  
+  .profile-info p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .profile-info strong {
+    color: #4060af;
+  }
+  

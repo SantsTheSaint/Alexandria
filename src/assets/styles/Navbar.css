@@ -1,0 +1,67 @@
+/* Estilo para o navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343541; /* Cor de fundo mais suave, inspirada no ChatGPT */
+    padding: 10px 20px;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; /* Branco para o título */
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-links a,
+  .navbar-links button {
+    color: #ffffff; /* Cor branca para os links e botões */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Adicionando o estilo de foco para maior acessibilidade */
+  .navbar-links a:focus,
+  .navbar-links button:focus {
+    outline: 2px solid #4A90E2; /* Cor azul claro para o foco */
+    background-color: #4A90E2;  /* Cor azul claro ao focar */
+    color: #ffffff;
+  }
+  
+  /* Adicionando uma transição suave e efeito de hover */
+  .navbar-links a:hover,
+  .navbar-links button:hover {
+    background-color: #4A90E2; /* Azul claro ao passar o mouse */
+    color: white;
+    transform: scale(1.1); /* Um pequeno aumento no tamanho ao passar o mouse */
+  }
+  
+  /* Estilo para o botão de logout */
+  button {
+    background-color: #D3D9E2; /* Cor cinza suave para o botão de logout */
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #343541; /* Cor escura para o texto do botão */
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #A7B4C3; /* Cinza mais escuro para o hover */
+  }
+  
+  button:focus {
+    outline: 2px solid #4A90E2;
+    background-color: #A7B4C3;
+  }
+  

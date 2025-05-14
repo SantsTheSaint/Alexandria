@@ -1,0 +1,101 @@
+/* Aplica ao fundo do site todo */
+body {
+    margin: 0;
+    background-color: #2D2D2D;
+    font-family: 'Arial', sans-serif;
+    color: #E0E0E0;
+  }
+  
+  .profile-container {
+    background-color: #2D2D2D; /* mesmo fundo do site */
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+  }
+  
+  .profile-avatar .avatar-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00BFA6; /* azul-esverdeado estilo ChatGPT */
+  }
+  
+  .profile-info h2 {
+    font-size: 24px;
+    color: #00BFA6;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info p {
+    font-size: 16px;
+    color: #CCCCCC;
+    margin: 5px 0;
+  }
+  
+  .btn-edit-profile {
+    background-color: #00BFA6;
+    color: #1E1E1E;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .btn-edit-profile:hover {
+    background-color: #00A38C;
+  }
+  
+  .profile-sections {
+    margin-top: 40px;
+  }
+  
+  .profile-sections h3 {
+    font-size: 20px;
+    color: #00BFA6;
+    margin-bottom: 10px;
+  }
+  
+  .bio-section, .social-links, .friends-section {
+    background-color: #393939; /* tom mais claro que o fundo geral */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+  
+  .bio-section p,
+  .friends-section p {
+    color: #CCCCCC;
+    font-size: 16px;
+  }
+  
+  .social-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    margin: 10px 0;
+  }
+  
+  .social-links a {
+    color: #00BFA6;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
